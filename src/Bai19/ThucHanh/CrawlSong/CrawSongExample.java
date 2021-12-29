@@ -28,9 +28,8 @@ public class CrawSongExample {
             while (m.find()) {
                 System.out.println(m.group(1));
             }
-        } catch (MalformedURLException | UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (MalformedURLException | UnsupportedEncodingException  e) {
+            } catch (IOException e) {
             e.printStackTrace();
         }
     }
